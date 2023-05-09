@@ -1,4 +1,4 @@
-# Task #2
+# Task #1
 
 ### First we will import all the necessary imports 
 ```python
@@ -57,7 +57,7 @@ plt.show()
 
 
 
-## Task#2 Completed Successfully
+## Task#1 Completed Successfully
 
 
 
