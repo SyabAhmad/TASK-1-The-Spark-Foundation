@@ -20,10 +20,22 @@ print(score)
 xTrain, xTest, yTrain, yTest = train_test_split(X,Y,test_size=0.2, random_state=0)
 yPred = regressor.predict(xTrain)
 print(yPred)
+
+
+
+## Before prediction
 data.plot()
 plt.title("Hours and Score Prediction || The Spark Foundation || Task #1")
 plt.xlabel("Score")
 plt.ylabel("Hours")
+plt.show()
+
+
+## After prediction (after testing prediction)
+
+yPred = pd.DataFrame([yPred, xTest])
+yPred.plot()
+plt.title("Testing prediciton")
 plt.show()
 
 
